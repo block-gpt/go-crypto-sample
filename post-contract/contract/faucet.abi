@@ -1,0 +1,1 @@
+[{"inputs":[{"internalType":"contract MockBTC","name":"_token","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[],"name":"claim","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"token","outputs":[{"internalType":"contract MockBTC","name":"","type":"address"}],"stateMutability":"view","type":"function"}]
