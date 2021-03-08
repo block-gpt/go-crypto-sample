@@ -12,17 +12,6 @@ import (
 )
 
 func main() {
-	// client, err := ethclient.Dial("https://kovan.infura.io/v3/2cc44ba2af1d4142b166509013cf3b05")
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-
-	// tokenAddress := common.HexToAddress("0x18Edd1E7B1e906B0223DceE6983bb664a9E0feFa")
-	// instance, err := token.NewToken(tokenAddress, client)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-
 	privateKey, err := crypto.HexToECDSA(os.Getenv("TEST3_KEY"))
 	if err != nil {
 		log.Fatal(err)

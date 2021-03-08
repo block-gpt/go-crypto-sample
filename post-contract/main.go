@@ -79,10 +79,10 @@ func main() {
 
 	fmt.Printf("tx sent: %s\n", tx.Hash().Hex())
 
-	bal, err = tokenContract.BalanceOf(&bind.CallOpts{}, address)
-	if err != nil {
-		log.Fatal(err)
-	}
+	// bal, err = tokenContract.BalanceOf(&bind.CallOpts{}, address)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
 
-	fmt.Println("Bal in wei:", bal)
+	// fmt.Println("Bal in wei:", bal)
 }
