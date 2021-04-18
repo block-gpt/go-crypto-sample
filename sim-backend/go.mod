@@ -1,4 +1,4 @@
-module github.com/fudorec/geth-sample/sim-backend
+module github.com/fudorec/go-crypto-sample/sim-backend
 
 go 1.16
 

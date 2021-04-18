@@ -10,7 +10,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 
-	"github.com/fudorec/geth-sample/query-erc20/token"
+	"github.com/fudorec/go-crypto-sample/query-erc20/token"
 )
 
 func main() {
@@ -19,13 +19,13 @@ func main() {
 		log.Fatal(err)
 	}
 
-	tokenAddress := common.HexToAddress("0x18Edd1E7B1e906B0223DceE6983bb664a9E0feFa")
+	tokenAddress := common.HexToAddress("0x75b3267f7C769E36412B129A26F59Fe144c2C8A1")
 	instance, err := token.NewToken(tokenAddress, client)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	address := common.HexToAddress("0xf09B8dda559292111Af945e91717dA39eEF34Ade")
+	address := common.HexToAddress("0x8dEF74F25f5429831044c64C057121E3322133F0")
 	bal, err := instance.BalanceOf(&bind.CallOpts{}, address)
 	if err != nil {
 		log.Fatal(err)

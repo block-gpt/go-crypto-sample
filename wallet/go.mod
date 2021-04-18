@@ -1,4 +1,4 @@
-module github.com/fudorec/geth-sample/wallet
+module github.com/fudorec/go-crypto-sample/wallet
 
 go 1.16
 

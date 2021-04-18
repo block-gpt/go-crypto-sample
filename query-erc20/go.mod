@@ -1,4 +1,4 @@
-module github.com/fudorec/geth-sample/query-erc20
+module github.com/fudorec/go-crypto-sample/query-erc20
 
 go 1.16
 

@@ -13,8 +13,8 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
 
-	"github.com/fudorec/geth-sample/post-contract/contract"
-	"github.com/fudorec/geth-sample/query-erc20/token"
+	"github.com/fudorec/go-crypto-sample/post-contract/contract"
+	"github.com/fudorec/go-crypto-sample/query-erc20/token"
 )
 
 func main() {

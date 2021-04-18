@@ -1,4 +1,4 @@
-module github.com/fudorec/geth-sample/btc-key
+module github.com/fudorec/go-crypto-sample/btc-key
 
 go 1.16
 

@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "path": "btc-key"
+    },
+    {
+      "path": "sign-tx"
+    },
+    {
+      "path": "sim-backend"
+    },
+    {
+      "path": "post-contract"
+    },
+    {
+      "path": "query-erc20"
+    },
+    {
+      "path": "wallet"
+    },
+    {
+      "path": "claim-token"
+    }
+  ],
+  "settings": {}
+}
